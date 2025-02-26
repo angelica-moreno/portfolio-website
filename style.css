@@ -4,8 +4,11 @@ body {
 
 }
 
-connect {
-    color: black;
+.headings {
+    color: hsl(337, 100%, 79%);
+}
+
+.connect {
     font-family: serif;
     background-color: hsl(327, 100%, 95%);
 }
