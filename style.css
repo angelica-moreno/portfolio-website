@@ -1,0 +1,11 @@
+body {
+    color: black;
+    font-family: serif;
+
+}
+
+connect {
+    color: black;
+    font-family: serif;
+    background-color: hsl(327, 100%, 95%);
+}
