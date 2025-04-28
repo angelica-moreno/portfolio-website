@@ -13,6 +13,7 @@
     <header>
         <div class="menu-container">
             <div class="hamburger" id="hamburger">
+                <!--id="hamburger will make it easier to implement javascript elements"-->
                 &#9776; <!-- unicode for hamburger icon -->
             </div>
             <nav id="nav-menu" class="hidden">
@@ -22,27 +23,42 @@
             </nav>
         </div>
     </header>
+
     <main>
         <h1 class="headings">Hello! I'm Angelica.</h1>
         <p>A work in progress, will be up soon!</p>
         <p><a href="resume.linkhere">Resume</a></p>
-        <div class="toolkit">
+        <section class="toolkit">
             <h1>My Toolkit</h1>
-        </div>
-        <form method="post" class="connect">
-            <h2 class="headings">Let's connect!</h2>
-            <fieldset>
-                <label for="name">
+            <div class="toolkit-item">
+                <h2>Languages</h2>
+                <p>HTML5 CSS JavaScript Python</p>
+            </div>
+
+            <div class="toolkit-item">
+                <h2>Frameworks & Libraries</h2>
+                <p>Node.js</p>
+            </div>
+
+            <div class="toolkit-item">
+                <h2>Tools</h2>
+                <p>Github VS Code</p>
+            </div>
+        </section>
+        <section>
+            <form method="post" class="connect">
+                <h2 class="headings">Let's connect!</h2>
+                <fieldset>
+                    <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Your name" required />
-                </label>
-                <label for="email">
+                    <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Your email" required />
-                </label>
-                <label for="message">
-                    <input type="text" id="message" name="message" placeholder="Your message" required />
-                </label>
-            </fieldset>
-        </form>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
     </main>
 </body>
 
