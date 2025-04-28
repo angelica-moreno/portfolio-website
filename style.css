@@ -1,3 +1,20 @@
+.hidden {
+    display: none;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: black;
+    background-color: hsl(321, 33%, 92%);
+}
+
+nav {
+    display: none;
+    background-color: hsl(321, 33%, 92%);
+    ;
+}
+
 body {
     color: black;
     font-family: serif;
