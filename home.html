@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angelica Moreno</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -23,17 +24,23 @@
     </header>
     <main>
         <h1 class="headings">Hello! I'm Angelica.</h1>
-        <p>A work in progress, will be up soon!.</p>
-        <p><a href="resume.linkhere"></a> Resume</p>
+        <p>A work in progress, will be up soon!</p>
+        <p><a href="resume.linkhere">Resume</a></p>
         <div class="toolkit">
             <h1>My Toolkit</h1>
         </div>
         <form method="post" class="connect">
             <h2 class="headings">Let's connect!</h2>
             <fieldset>
-                <label for="name"><input type="text" id="name" required /></label>
-                <label for="email"><input type="email" id="email" required /></label>
-                <label for="message"><input type="text" id="message" required></label>
+                <label for="name">
+                    <input type="text" id="name" name="name" placeholder="Your name" required />
+                </label>
+                <label for="email">
+                    <input type="email" id="email" name="email" placeholder="Your email" required />
+                </label>
+                <label for="message">
+                    <input type="text" id="message" name="message" placeholder="Your message" required />
+                </label>
             </fieldset>
         </form>
     </main>
