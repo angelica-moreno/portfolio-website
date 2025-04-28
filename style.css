@@ -5,12 +5,13 @@ body {
 }
 
 .headings {
-    color: hsl(337, 100%, 79%);
+    color: hsl(337, 34%, 52%);
 }
 
 .connect {
     font-family: serif;
     background-color: hsl(327, 100%, 95%);
+    color: white
 }
 
 .project {
